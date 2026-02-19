@@ -1,0 +1,117 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[margin=1.22cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+% slightly relaxed bullet spacing (for readability)
+\setlist[itemize]{leftmargin=*, topsep=1pt, itemsep=1pt}
+
+% slightly more section breathing room
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+\titleformat{\section}{\bfseries}{}{0em}{}[\titlerule]
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+% HEADER
+
+\begin{center}
+    {\Large \textbf{Het Darji}}\
+
+
+    North York, ON, Canada \textbar{} Open to Hybrid / On-site\
+
+
+    \href{mailto:darjihet01@gmail.com}{darjihet01@gmail.com} \textbar{}
+    647-283-1876 \textbar{}
+    \href{https://www.linkedin.com/in/het-darg/}{LinkedIn} \textbar{}
+    \href{https://github.com/hetdarji}{GitHub}
+\end{center}
+
+\vspace{-2pt}
+
+% SUMMARY
+\section*{Professional Summary}
+
+IT Support \& Systems Administrator with 2+ years of Tier 1--2 experience supporting Windows, Microsoft 365, Active Directory / Entra ID, and enterprise network environments. Skilled in troubleshooting hardware, software, identity, and connectivity issues while meeting SLA targets in fast-paced support operations. Experienced with ticketing systems, user lifecycle management, workstation deployment, and end-user assistance. Seeking roles in Technical Support, Service Desk, Helpdesk, or Junior Systems Administration.
+
+% SKILLS
+\section*{Technical Skills}
+
+\textbf{Operating Systems:} Windows 10/11, Windows Server, Linux (Ubuntu, CentOS)\\
+\textbf{Identity \& Cloud:} Active Directory, Entra ID / Azure AD, Microsoft 365 Admin Center\\
+\textbf{Networking:} TCP/IP, DNS, DHCP, VPN, LAN/WAN, Wi-Fi troubleshooting\\
+\textbf{Tools:} ServiceNow, SysAid, Jira, Remote Desktop, Intune (basic), MECM (basic)\\
+\textbf{Hardware:} Laptops, desktops, printers, docking stations, monitors, peripherals, iOS \& Android\\
+\textbf{IT Operations:} Incident management, SLA tracking, onboarding/offboarding, documentation
+
+% EXPERIENCE
+\section*{Professional Experience}
+
+\textbf{IT Systems Administrator (Co-op)} \hfill Sep 2024 -- Dec 2024\\
+Total Credit Recovery Limited - Toronto, ON
+
+\begin{itemize}
+\item  Provided Tier 1–2 support for Windows devices, Microsoft 365, VPN access, and connectivity issues for 200+ on‑site and remote users across multiple departments.
+\item Managed user accounts and access in Active Directory and Entra ID including onboarding, password resets, MFA issues, and access troubleshooting.
+\item Logged and resolved incidents using SysAid and Jira while meeting SLA targets.
+\item Installed and troubleshot desktops, laptops, printers, docking stations, and workplace software.
+\item Assisted users with VoIP setup, mailbox access, remote connectivity, and network troubleshooting.
+\end{itemize}
+
+\vspace{4pt}
+
+\textbf{Wireless Associate} \hfill Sep 2024 -- Present\\
+OSL Wireless, Toronto, ON (Part-time, Weekends)
+
+\begin{itemize}
+\item Consistently exceeding annual sales and customer service KPIs with 130\%+ performance.
+\item Recognized for strong customer retention and resolving complex service concerns.
+\item Assisted customers with smartphone setup, account troubleshooting, and technical guidance.
+\item Performed device configuration, SIM activation, data transfer, and software updates.
+\end{itemize}
+
+\vspace{4pt}
+
+\textbf{Technical Support Engineer} \hfill Jan 2023 -- Apr 2024\\
+Etech Pvt. Ltd. - Gujarat, India
+
+\begin{itemize}
+\item Delivered Tier 2 technical support resolving OS, hardware, software, and connectivity issues.
+\item Supported Microsoft 365 administration including account setup and permissions.
+\item Troubleshot LAN/WAN connectivity, VPN failures, Wi-Fi instability, and remote access issues.
+\item Provided remote troubleshooting support using secure remote tools.
+\item Assisted with workstation deployments, upgrades, and IT documentation.
+\end{itemize}
+
+% EDUCATION
+\section*{Education}
+
+\textbf{Post Graduate Diploma - DevOps for Cloud Computing} \hfill 2024--2025\\
+Lambton College, Toronto, ON
+
+\textbf{Bachelor of Engineering - Computer Engineering} \hfill 2020--2023\\
+Amiraj College, Ahmedabad, India
+
+\textbf{Diploma - Computer Engineering} \hfill 2017--2020\\
+Government Polytechnic, Gandhinagar, India
+
+% PROJECT
+\vspace{-2pt}
+\section*{Projects}
+
+\textbf{Active Directory Domain Services Implementation} \hfill Dec 2024
+
+\begin{itemize}
+\item Built an enterprise-style AD lab with multiple domain controllers, DNS, OUs, and Group Policy.
+\item Configured VPN-based remote access for secure domain login and testing.
+\item Implemented users, security groups, and permissions for enterprise identity control.
+\end{itemize}
+
+\end{document}
